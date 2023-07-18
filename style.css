@@ -1,0 +1,122 @@
+/* font style start */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Oswald:wght@400;600&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+</style>
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+/* font style end */
+
+/* style for nav bar */
+body{
+    width: 1300px;
+    
+}
+.nav-container {
+    width: 1440px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+   
+   height: 40px;
+   margin: auto;
+    padding:20px;
+   align-items: center;
+    display: flex;
+   justify-content: space-between;
+
+
+    
+}
+ul{
+    display: flex;
+    font-size: 25px;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.logo-text{
+    font-size: 40px;
+}
+.logo-text-g{
+   color:rgb(237, 68, 164) ; 
+}
+.icons{
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    height: 680px;
+    width: auto;
+}
+.banner-1{
+    text-align: center;
+    background-image: url(assets/images/Group\ 14.png);
+    height: 100%;
+    width: 100%;
+}
+.banner-image{
+    width:700px;
+}
+.banner-description{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 500;
+text-transform: uppercase;
+padding-top: 120px;
+}
+.big{
+    
+font-family: Work Sans;
+font-size: 95px;
+font-weight: 800px;
+background: linear-gradient(180deg, #FF42A5 0%, #4EC5F7 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.li{
+    padding-left: 250px;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.btn{
+    display: inline-flex;
+align-items: flex-start;
+gap: 10px;
+padding-bottom: 200px;
+margin-bottom: 100px
+}
+.btn1{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500px;
+text-transform: uppercase;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)); 
+    border:none;
+}
+.btn2{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500px;
+text-transform: uppercase;
+border-radius: 48px;
+background: #4EC5F7;
+border:none;}
+
+/* we-are-gamer */
+.we-are-gamer{
+    display: flex;
+}
