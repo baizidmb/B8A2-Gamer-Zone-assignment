@@ -9,8 +9,8 @@ font-family: 'Work Sans', sans-serif;
 /* font style end */
 
 /* style for nav bar */
-body{
-    max-width: 1200px;
+main{
+    max-width: 1300px;
     
 }
 .nav-container {
@@ -33,7 +33,7 @@ ul{
     text-decoration: none;
     list-style: none;
 }
-.logo-text{
+.logo-text {
     font-size: 40px;
 }
 .logo-text-g{
@@ -178,6 +178,7 @@ font-weight: 400;
     }
     .plus{
         display: flex;
+        justify-content: space-between;
 
     }
     .plus > h2 .pinik{
@@ -192,6 +193,26 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
     }
+.plus-text{
+    margin-right: 50px;
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+}
+.plus-text p{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-right: 20px;
+text-align: justify;
+}
     .imgs{
         position: relative;
         top: 0;
@@ -207,3 +228,70 @@ position: absolute;
 bottom:-130px;
 left:-130px;
 }
+.pngimg1{
+    margin-top: 200px;
+    color: #0B0223;
+font-size: 25px;
+font-weight: 600;
+line-height: normal;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+}
+.pngimg2{
+    margin-left:200px;
+    color: #0B0223;
+font-size: 25px;
+font-weight: 600;
+line-height: normal;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+
+}
+.pngimg1 > img:hover{
+    border: 3px solid purple;
+    border-color: #ef02b4;
+border-radius: 50px;
+}
+.pngimg2 > img:hover{
+    border: 3px solid purple;
+    border-color: #ef02b4;
+border-radius: 50px;
+}
+.foot-logo{
+    text-align: center;
+}
+.logo-text2{
+    color: #FFF;
+    font-size: 40px;
+    
+}
+
+footer{
+    height: auto;
+    margin: 60px;
+    background-color: #0B0223;
+}
+.footer-nav{
+    padding-left:25%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+}
+.icons{
+    
+    text-align: center;}
+   .more{
+display: flex;
+justify-content: space-around;
+
+   }
+   .last{
+
+    text-align: center;
+   }
